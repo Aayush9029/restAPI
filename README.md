@@ -77,9 +77,6 @@ python3 main.py
 
 ### Curl Example: 
 <img src="https://raw.githubusercontent.com/Aayush9029/restAPI/master/img/curlImage.png"/>
+
 ---
-
-
-
-
 *tested on macOS catalina*
