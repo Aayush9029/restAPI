@@ -1,7 +1,6 @@
 # restAPI
 
-[![Python version](https://img.shields.io/badge/restAPI-0.29-pink?style=flat-square)](https://aayush.wtf) [![Python version](https://img.shields.io/badge/Python-3.7-green?style=flat-square)](https://aayush.wtf) [![Maintained](https://img.shields.io/badge/Maintained-yes-orange?style=flat-square)](https://aayush.wtf) [![OS](https://img.shields.io/badge/OS--red?style=flat-square)](https://apple.com)
-
+[![Python version](https://img.shields.io/badge/restAPI-0.29-pink?style=flat-square)](https://aayush.wtf) [![Python version](https://img.shields.io/badge/Python-3.7-green?style=flat-square)](https://aayush.wtf) [![Maintained](https://img.shields.io/badge/Maintained-yes-orange?style=flat-square)](https://aayush.wtf) [![OS](https://img.shields.io/badge/OS--red?style=flat-square)](https://apple.com) [![OS](https://img.shields.io/badge/OS_dependant-YES-yellow?style=flat-square)](https://apple.com)
 ## Device-info rest api, made using flask
 
 > ### What does it do?
