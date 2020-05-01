@@ -1,35 +1,35 @@
 # restAPI
-Device info rest api, made using flask
+
+[![Python version](https://img.shields.io/badge/restAPI-0.29-pink?style=flat-square)](https://aayush.wtf) [![Python version](https://img.shields.io/badge/Python-3.7-green?style=flat-square)](https://aayush.wtf) [![Maintained](https://img.shields.io/badge/Maintained-yes-orange?style=flat-square)](https://aayush.wtf) [![OS](https://img.shields.io/badge/OS--red?style=flat-square)](https://apple.com)
+
+## Device-info rest api, made using flask
+
+> ### What does it do?
+> Grabs various device **information** and "turns" it into an api, which can be accessed from anywhere.  
+
+> ### What kind of information?
+> Battery Info, Cpu Usage, Disk, Ram usage, User Info ...
+
+> ### What can we do with the data?
+> Make charts, log them, make an web/android/ios app for it.. the possibilities are endles.
+
+> ### How can we access the data?
+> The data is hosted on port 8080 *configurable* so by simply opening http://localhost:8080/api in a web-browser,
+or typing 
+`curl http://localhost:8080/api` in terminal.
 
 
-
-API output
-
+### API output eg:
 ```json
   "battery_info": {
     "Charge": 100, 
     "Charging": "No", 
     "Connected": "Yes", 
-    "data": {
-      "Amperage (mA)": " 0", 
-      "Battery Installed": " Yes", 
-      "Cell Revision": " 2400", 
-      "Charge Remaining (mAh)": " 4901", 
-      "Charging": " No", 
-      "Condition": " Normal", 
-      "Cycle Count": " 140", 
-      "Device Name": " bq20z451", 
-      "Firmware Version": " 1002", 
-      "Full Charge Capacity (mAh)": " 4901", 
-      "Fully Charged": " Yes", 
-      "Hardware Revision": " 1", 
-      "Manufacturer": " SMP", 
-      "Serial Number": " D8AADF90TUL3L256", 
-      "Voltage (mV)": " 12916"
-    }
+    "data": {...}
   }, 
   "cpu": {
-    "used": 82.4
+    "used": 82.4,
+    "temp" : 42.2
   }, 
   "userInfo": {
     "uname": "Darwin", 
@@ -59,3 +59,10 @@ API output
   }
 }
 ```
+---
+### Web Request Example: <img src="https://raw.githubusercontent.com/Aayush9029/restAPI/master/img/apiImage.png"/>
+
+### Curl Example: <img src="https://raw.githubusercontent.com/Aayush9029/restAPI/master/img/curlImage.png"/>
+---
+
+*tested on macOS catalina*
