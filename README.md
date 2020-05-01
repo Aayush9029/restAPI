@@ -59,10 +59,27 @@ or typing
   }
 }
 ```
----
-### Web Request Example: <img src="https://raw.githubusercontent.com/Aayush9029/restAPI/master/img/apiImage.png"/>
+### How to Install?
+```bash
+git clone https://github.com/Aayush9029/restAPI.git
 
-### Curl Example: <img src="https://raw.githubusercontent.com/Aayush9029/restAPI/master/img/curlImage.png"/>
+cd restApi
+
+pip install -r requirements.txt -y
+
+python3 main.py
+```
+
+
 ---
+### Web Request Example:
+<img src="https://raw.githubusercontent.com/Aayush9029/restAPI/master/img/apiImage.png"/>
+
+### Curl Example: 
+<img src="https://raw.githubusercontent.com/Aayush9029/restAPI/master/img/curlImage.png"/>
+---
+
+
+
 
 *tested on macOS catalina*
